@@ -19,6 +19,7 @@
     text-transform: uppercase;
     color: white;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .container {
@@ -36,13 +37,7 @@
     justify-content: center;
   }
 
-  @media (max-width: 600px) {
-    .container-2 {
-      grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
 
-    }
-    }
-  
   .card {
     display: flex;
     background: #f2f2f2;
