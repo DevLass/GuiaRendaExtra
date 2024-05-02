@@ -91,6 +91,15 @@
 	transform: translate(-50%, -50%);
 }
 
+@media (max-width: 600px) {
+	.wrongtext {
+		position: absolute;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%, -90%);
+	}
+  }
+
 .none{
 	display: none;
 }
