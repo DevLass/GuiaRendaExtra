@@ -35,6 +35,13 @@
     height: 100%;
     justify-content: center;
   }
+
+  @media (max-width: 600px) {
+    .container-2 {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+
+    }
+    }
   
   .card {
     display: flex;
