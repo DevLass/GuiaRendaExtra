@@ -37,7 +37,7 @@
     justify-content: center;
   }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
 	.container-2 {
   	  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
    	  grid-auto-rows: 350px;
