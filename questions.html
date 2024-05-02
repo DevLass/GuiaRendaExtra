@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/questions.css">
+    <link rel="icon" href="Assets/favicon.png" type="image/x-icon">
+    <title>Guia de Renda Extra</title>
+</head>
+<body>
+    <section class="cover">
+        <header>
+          <h1 id="questionTitle"></h1>
+          <p id="question"></p>
+        </header>
+        <div class="flex">
+            <button class="answer" id="aButton" onclick="selectAnswer(0)">
+                <p id="a"></p>
+            </button>
+            <button class="answer" id="bButton"  onclick="selectAnswer(1)">
+                <p id="b"></p>
+            </button>
+        </div>
+        <div class="flex">
+            <button class="next" onclick="nextQuestion()" >Confirmar</button>
+        </div>
+         <p class="none wrongtext">Selecione uma resposta.</p>
+
+      </section>
+      
+      <script src="scripts/questions.js"></script>
+</body>
+</html>
