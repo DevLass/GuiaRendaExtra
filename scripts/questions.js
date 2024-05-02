@@ -88,9 +88,7 @@ function nextQuestion(){
             auxConfimAnswer += 1;
             questionNumber += 1;
 
-            console.log(answerList)
 
-            // Pula p produto ou serviço (Questão 4 ou 5)
             if (questionNumber == 4) {
                 if (answerList[2] == "Produto"){
                     auxConfimAnswer += 1
@@ -115,8 +113,8 @@ function nextQuestion(){
         }
     }else{
         localStorage.setItem('answerList', answerList);
-        window.location.href = "/results.html";
-        // Ir para resultados
+        window.location.href = "https://devlass.github.io/GuiaRendaExtra/results.html";
+        // ALTERAR NA HOSPEDAGEM
     }
 
 }
