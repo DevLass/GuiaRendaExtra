@@ -144,7 +144,7 @@ for (var i = 0; i < perguntas.length; i++) {
           var insert = `
           <div class="card" style="border: solid 3px #ef9416" onclick="searchGoogle(${i})">
           <div class="avatar">
-            <img class="image" src='${perguntas[i].imagem}' style="border: solid 1px #ef9416" />
+            <img class="image" src='${perguntas[i].imagem}?raw=true' style="border: solid 1px #ef9416" />
           </div>
           <div class="content-container">
             <p class="title-2">${perguntas[i].titulo}</p>
